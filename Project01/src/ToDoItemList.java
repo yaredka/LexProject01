@@ -35,7 +35,7 @@ public class ToDoItemList {
 //		this.item = item;
 //		timeStamp = new Date();
 //	}
-	HashMap<String, ToDoItem> toDoItemHashMap = new HashMap<String, ToDoItem>();
+//	HashMap<String, ToDoItem> toDoItemHashMap = new HashMap<String, ToDoItem>();
 	
 
 	
