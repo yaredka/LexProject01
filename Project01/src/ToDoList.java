@@ -7,9 +7,11 @@ import java.util.HashMap;
  * @author User
  *
  */
-public class ToDoItemList {
+public class ToDoList {
 	
 	public static void main(String[] args){
+		
+		
 
 	ArrayList<String> toDoItemList = new ArrayList<String>();
 	
@@ -21,15 +23,20 @@ public class ToDoItemList {
 	toDoItemList.add("clean the house");
 	toDoItemList.add("beak");
 	
-	System.out.println(toDoItemList.size());
+	System.out.println("Size: " + toDoItemList.size());
+	
 	
 	toDoItemList.remove(1);
 	toDoItemList.add("added todo");
 	toDoItemList.add(1, "six todo");
 	
 	for(int i = 0; i < toDoItemList.size(); i++) {
-		System.out.println(toDoItemList.get(i));
+		Date timeStamp = new Date();
+		System.out.println(timeStamp + ": " + toDoItemList.get(i));
+		
 	}
+	
+	
 	
 //	public ToDoItem(null, result, null) {
 //		this.item = item;

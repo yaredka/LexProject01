@@ -13,15 +13,19 @@ public class ToDoItem {
 	public boolean done;
 	public Date timeStamp;
 	
-	
 	// Constructor
-	public ToDoItem(String item, boolean done, Date timeStamp) {
+	public ToDoItem(String item, boolean done, long Date) {
 		super();
 		this.item = item;
 		this.done = done;
-		this.timeStamp = timeStamp;
+//		this.timeStamp = timeStamp;
+		timeStamp = new Date();
 	}
 	
+	
+	public void Timestamp (int year, int month, int date, int hour, int minute, int second) {
+		
+	}
 	
 	// Getter & Setter
 	public String getItem() {
