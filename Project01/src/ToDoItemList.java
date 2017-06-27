@@ -9,7 +9,7 @@ import java.util.HashMap;
  */
 public class ToDoItemList {
 	
-	public static void main(String[] args, Date timeStamp){
+	public static void main(String[] args){
 
 	ArrayList<String> toDoItemList = new ArrayList<String>();
 	
